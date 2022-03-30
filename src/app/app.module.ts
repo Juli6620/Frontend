@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { ComponentsComponent } from './components/components.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LogoApComponent } from './components/logo-ap/logo-ap.component';
+import { SocialComponent } from './components/social/social.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ComponentsComponent,
     HeaderComponent,
-    LogoApComponent
+    LogoApComponent,
+    SocialComponent
   ],
   imports: [
     BrowserModule
