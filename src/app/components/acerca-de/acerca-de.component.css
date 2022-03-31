@@ -2,13 +2,23 @@
     padding: 20px;
 }
 div{
-    background-color: rgb(156, 142, 168);
+    background-color: rgb(206, 196, 214);
     text-align: center;
 }
+/*estilo de la foto de perfil*/
+@media (min-with:576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 15%;
+        border-radius: 100%;
+        box-shadow:3px 3px 3px grey;
+    }
+}
+    
 /*etiqueta nombre*/
 #nombre{
     font-weight: bold;
-    margin-top: 40%;
-    margin-left: 10px;
+    margin-top: 30%;
+    
 
 }
