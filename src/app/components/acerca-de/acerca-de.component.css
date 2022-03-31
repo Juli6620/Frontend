@@ -11,14 +11,23 @@ div{
         position: absolute;
         width: 15%;
         border-radius: 100%;
-        box-shadow:3px 3px 3px grey;
+        box-shadow:3px 3px 3px green;
+        left: 3%;
+        top: 600px;
     }
+    @media (max-with:575px){
+        #fotodeperfil{
+            position: absolute;
+            width: 30%;
+            border-radius: 100%;
+            box-shadow:3px 3px 3px green;
+            left: 33%;
+            top: 630px;
+        }
 }
-    
-/*etiqueta nombre*/
+}
+    /*etiqueta nombre*/
 #nombre{
     font-weight: bold;
     margin-top: 30%;
-    
-
-}
+    }
