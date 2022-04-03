@@ -1,4 +1,13 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 #logoAP{
     width: 300px;
     padding: 18px;
     }
+img{
+        width: 50px;
+        }   
+
