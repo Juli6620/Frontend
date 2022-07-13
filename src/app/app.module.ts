@@ -18,6 +18,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HomeComponent } from './components/home/home.component';
 import { LoginComponent } from './components/login/login.component';
 import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -39,7 +40,8 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     NgCircleProgressModule.forRoot({}),
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
     ],
   providers: [],
   bootstrap: [AppComponent]
