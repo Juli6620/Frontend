@@ -43,7 +43,7 @@ import { EditeducacionComponent } from './components/educacion/editeducacion.com
     NewExperienciaComponent,
     EditExperienciaComponent,
     NeweducacionComponent,
-    EditeducacionComponent
+    EditeducacionComponent,
   ],
   imports: [
     BrowserModule,
