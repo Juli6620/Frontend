@@ -18,15 +18,15 @@
     [showSubtitle]="false"
     [subtitle]="skill.nombreS" 
     [outerStrokeWidth]="13"
-    [innerStrokeWidth]="5"
+    [innerStrokeWidth]="1"
     [outerStrokeColor]="'#CE7FBC '"
-    [innerStrokeColor]="'pink'"
+    [innerStrokeColor]="'#CE7FBC'"
     [animation]="true"
     [animationDuration]="500"
   ></circle-progress>
 
   <div *ngIf="isLogged">
-    <button class="btn btn-secondary" routerLink="/editskill/{{skill.id}}">
+    <button class="btn btn-secondary" routerLink="/editskills/{{skill.id}}">
     <i class="bi bi-pencil-fill"></i></button>
     </div>
   
