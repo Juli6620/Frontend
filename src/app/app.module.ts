@@ -28,6 +28,7 @@ import { NewProyectoComponent } from './components/proyecto/newproyecto.componen
 import { EditProyectosComponent } from './components/proyecto/edit-proyecto.component';
 import { EditSkillsComponent } from './components/hys/edit-skills.component';
 import { NewSkillComponent } from './components/hys/new-skill.component';
+import { RegistroComponent } from './components/login/registro/registro.component';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { NewSkillComponent } from './components/hys/new-skill.component';
     EditProyectosComponent,
     NewSkillComponent,
     EditSkillsComponent,
+    RegistroComponent,
   ],
   imports: [
     BrowserModule,
