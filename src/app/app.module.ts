@@ -7,7 +7,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { LogoApComponent } from './components/logo-ap/logo-ap.component';
 import { SocialComponent } from './components/social/social.component';
 import { BannerComponent } from './components/banner/banner.component';
-import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
+import { AcercadeComponent } from './components/acercade/acercade.component';
 import { ExperienciaComponent } from './components/experiencia/experiencia.component';
 import { EducacionComponent } from './components/educacion/educacion.component';
 import { NgCircleProgressModule } from "ng-circle-progress";
@@ -29,6 +29,8 @@ import { EditProyectosComponent } from './components/proyecto/edit-proyecto.comp
 import { EditSkillsComponent } from './components/hys/edit-skills.component';
 import { NewSkillComponent } from './components/hys/new-skill.component';
 import { RegistroComponent } from './components/login/registro/registro.component';
+import { NewacercadeComponent } from './components/acercade/newacercade.component';
+import { EditacercadeComponent } from './components/acercade/editacercade.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +38,7 @@ import { RegistroComponent } from './components/login/registro/registro.componen
     HeaderComponent,
     LogoApComponent,
     BannerComponent,
-    AcercaDeComponent,
+    AcercadeComponent,
     ExperienciaComponent,
     EducacionComponent,
     HysComponent,
@@ -53,6 +55,8 @@ import { RegistroComponent } from './components/login/registro/registro.componen
     NewSkillComponent,
     EditSkillsComponent,
     RegistroComponent,
+    NewacercadeComponent,
+    EditacercadeComponent,
   ],
   imports: [
     BrowserModule,

@@ -9,11 +9,11 @@ div{
 @media (min-width:576px){
     #fotodeperfil{
         position:absolute;
-        width: 12%;
+        width: 14%;
         border-radius: 100%;
         box-shadow:3px 3px 3px rgb(57, 3, 94);
-        left: 3%;
-        top: 460px;
+        left: 1%;
+        top: 450px;
     }
 }
 @media (max-width: 575px){
