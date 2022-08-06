@@ -15,6 +15,13 @@
                         <h4>{{Proyectos.nombreP}}</h4>
                     </td>
                     <td>{{Proyectos.descripcionP}}</td>
+                
+                <td>{{Proyectos.fechaP}}  
+                     </td>  
+                     <td>-</td>
+                 <td>{{Proyectos.fechaPF}} 
+                    </td> 
+                               
                     <td *ngIf="isLogged">
                         <button class="btn btn-secondary" routerLink="/editproy/{{Proyectos.id}}">
                             <i class="bi bi-pencil-fill"></i></button>

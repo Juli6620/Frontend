@@ -11,6 +11,18 @@
                     <label for="descripcionP">Descripcion del proyecto</label>
                     <input type="text" class="form-control" id="descripcionP" name="descripcionP" [(ngModel)]="proy.descripcionP" required>
                 </div>
+                <div class="form-group">
+                    <label for="fechaP">Fecha inicio de proyecto:   </label>
+                    
+                    <input type="datetime" a input type="datetime" class="form-control" id="fechaP" name="fechaP" [(ngModel)]="proy.fechaP" required>
+                
+                </div>
+                <div class="form-group">
+                    <label for="fechaPF">Fecha fin de proyecto:   </label>
+                    
+                    <input type="datetime" a input type="datetime" class="form-control" id="fechaPF" name="fechaPF" [(ngModel)]="proy.fechaPF" required>
+                
+                </div>
                 <button class="btn btn-secondary">
                     Actualizar
                 </button>

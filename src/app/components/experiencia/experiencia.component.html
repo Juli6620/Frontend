@@ -15,6 +15,13 @@
                         <h4>{{Experiencia.nombreE}}</h4>
                     </td>
                     <td>{{Experiencia.descripcionE}}</td>
+                 
+                <td>{{Experiencia.fechaE}}  
+                     </td>  
+                     <td>-</td>
+                 <td>{{Experiencia.fechaEF}} 
+                    </td> 
+                        
                     <td *ngIf="isLogged">
                         <button class="btn btn-secondary" routerLink="/editexp/{{Experiencia.id}}">
                             <i class="bi bi-pencil-fill"></i></button>

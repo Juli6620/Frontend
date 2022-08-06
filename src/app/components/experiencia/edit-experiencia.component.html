@@ -8,9 +8,22 @@
                     <input type="text" class="form-control" id="nombreE" name="nombreE" [(ngModel)]="expLab.nombreE" required>
                 </div>
                 <div class="form-group">
-                    <label for="descripcionE">Descripcion de la tarea</label>
+                    <label for="descripcionE">Descripcion de la experiencia laboral</label>
                     <input type="text" class="form-control" id="descripcionE" name="descripcionE" [(ngModel)]="expLab.descripcionE" required>
                 </div>
+                <div class="form-group">
+                    <label for="fechaE">Fecha inicio de experiencia laboral:   </label>
+                    
+                    <input type="datetime" a input type="datetime" class="form-control" id="fechaE" name="fechaE" [(ngModel)]="expLab.fechaE" required>
+                
+                </div>
+                <div class="form-group">
+                    <label for="fechaEF">Fecha fin de experiencia laboral:   </label>
+                    
+                    <input type="datetime" a input type="datetime" class="form-control" id="fechaEF" name="fechaEF" [(ngModel)]="expLab.fechaEF" required>
+                
+                </div>
+
                 <button class="btn btn-secondary">
                     Actualizar
                 </button>

@@ -11,6 +11,9 @@ import { SProyectosService } from 'src/app/service/proyectos.service';
 export class NewProyectoComponent implements OnInit {
   nombreP: string = '';
   descripcionP: string = '';
+  fechaP: string ='';
+  fechaPF: string ='';
+
 
   constructor(private sProyectos: SProyectosService, private router: Router) { }
 

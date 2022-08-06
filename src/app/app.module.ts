@@ -28,7 +28,7 @@ import { NewProyectoComponent } from './components/proyecto/newproyecto.componen
 import { EditProyectosComponent } from './components/proyecto/edit-proyecto.component';
 import { EditSkillsComponent } from './components/hys/edit-skills.component';
 import { NewSkillComponent } from './components/hys/new-skill.component';
-import { RegistroComponent } from './components/login/registro/registro.component';
+
 import { NewacercadeComponent } from './components/acercade/newacercade.component';
 import { EditacercadeComponent } from './components/acercade/editacercade.component';
 
@@ -54,7 +54,7 @@ import { EditacercadeComponent } from './components/acercade/editacercade.compon
     EditProyectosComponent,
     NewSkillComponent,
     EditSkillsComponent,
-    RegistroComponent,
+   
     NewacercadeComponent,
     EditacercadeComponent,
   ],

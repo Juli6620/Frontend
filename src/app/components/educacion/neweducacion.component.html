@@ -8,10 +8,27 @@
                     <label for="nombreE">Nombre de la institución:</label>
                     <input type="text" class="form-control" id="nombreE" name="nombreE" [(ngModel)]="nombreE" required>
                 </div>
+
                 <div class="form-group">
                     <label for="descripcionE">Descripción de sus estudios:</label>
                     <input type="text" class="form-control" id="descripcionE" name="descripcionE" [(ngModel)]="descripcionE" required>
                 </div>
+
+                <div class="form-group">
+                    <label for="fechaE">Fecha inicio de estudios:   </label>
+                    
+                    <input type="datetime" a input type="datetime" class="form-control" id="fechaE" name="fechaE" [(ngModel)]="fechaE" required>
+                
+                </div>
+
+                <div class="form-group">
+                    <label for="fechaEF">Fecha fin de estudios:   </label>
+                    
+                    <input type="datetime" a input type="datetime" class="form-control" id="fechaEF" name="fechaEF" [(ngModel)]="fechaEF" required>
+                
+                </div>
+                
+
                 <button class="btn btn-secondary">
                     Agregar educación
                 </button>
