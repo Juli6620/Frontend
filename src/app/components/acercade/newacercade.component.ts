@@ -11,6 +11,8 @@ import { AcercadeService } from 'src/app/service/acercade.service';
 export class NewacercadeComponent implements OnInit {
   nombreA: string;
   descripcionA: string;
+  
+  
 
   constructor(private acercadeS: AcercadeService, private router: Router) { }
 

@@ -1,14 +1,15 @@
+
 export class Proyectos {
     id? : number;
     nombreP : string;
     descripcionP : string;
-    fechaP : string;
-    fechaPF : string;
+    fechaP: string;
+    fechaPF: string;
 
-    constructor(nombreP: string, descripcionP: string){
+    constructor(nombreP: string, descripcionP: string, fechaP: string, fechaPF: string ){
         this.nombreP = nombreP;
         this.descripcionP = descripcionP;
-        this.fechaP = this.fechaP;
-        this.fechaPF = this.fechaPF;
+        this.fechaP= fechaP;
+        this.fechaPF= fechaPF;
     }
 }
