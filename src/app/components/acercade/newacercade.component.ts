@@ -11,6 +11,7 @@ import { AcercadeService } from 'src/app/service/acercade.service';
 export class NewacercadeComponent implements OnInit {
   nombreA: string;
   descripcionA: string;
+  tituloA: string;
   
   
 
@@ -20,7 +21,7 @@ export class NewacercadeComponent implements OnInit {
   }
 
   onCreate(): void{
-    const acercade = new Acercade(this.nombreA, this.descripcionA);
+    const acercade = new Acercade(this.nombreA, this.descripcionA, this.tituloA);
     this.acercadeS.save(acercade).subscribe(
       data =>{
         alert("Información añadida correctamente");

@@ -2,3 +2,11 @@
     background-color:rgb(215,182,241);
     padding: 20px;
 }
+.circle_progress{
+    display: flex;
+    text-align: center;
+    
+}
+
+
+

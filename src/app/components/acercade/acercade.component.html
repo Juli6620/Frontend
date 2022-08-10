@@ -2,17 +2,17 @@
     <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
         <img src="../../../assets/foto perfil.jpg" class="img-fluid" id="fotodeperfil">
     </div> 
- 
-   <h2></h2>
-   
-
-    <div class="col lg-2 "></div>
+    
+ <h2></h2>
+  
+       <div class="col lg-2 "></div>
     <div class="col-lg-10">
         <table class="table">
             <tbody>
                 <tr *ngFor="let Acercade of acercade">
                     <td>
-                        <h3>{{Acercade.nombreA}}</h3>
+                        <h1>{{Acercade.nombreA}}</h1>
+                        <h6>{{Acercade.tituloA}} </h6>
                     </td>
                     <td>{{Acercade.descripcionA}}</td>
                     <td *ngIf="isLogged">

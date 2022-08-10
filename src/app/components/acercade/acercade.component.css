@@ -4,6 +4,7 @@
 div{
     background-color: rgb(215, 182, 241);
     text-align: center;
+    
 }
 /*estilo de la foto de perfil*/
 @media (min-width:576px){
@@ -12,9 +13,9 @@ div{
         width: 14%;
         border-radius: 100%;
         box-shadow:3px 3px 3px rgb(57, 3, 94);
-        left: 1%;
+        left: 3%;
         top: 450px;
-    }
+            }
 }
 @media (max-width: 575px){
     #fotodeperfil{
@@ -22,8 +23,8 @@ div{
          width: 20%;
          border-radius: 100%;
          box-shadow:3px 3px 3px rgb(57, 3, 94);
-         left: 33%;
-         top: 730px;
+         left: 1%;
+         top: 650px;
         }
 }
 
