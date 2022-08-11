@@ -1,4 +1,12 @@
 img{
-    width: 100%;
+    width: 90%;
     height: 300px;
+    border-radius: 25px;
+    text-align: top;
+   
+}    
+div{
+    background-color: rgb(168, 127, 159);
+    text-align: center;
+    
 }

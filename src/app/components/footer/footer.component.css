@@ -8,6 +8,6 @@ footer{
     display: flex;
     flex-direction: column;
     text-align: center;
-    box-shadow: 2px -2px 5px violet;
+    box-shadow: 2px -2px 5px grey;
 
 }
