@@ -12,6 +12,7 @@ export class NewacercadeComponent implements OnInit {
   nombreA: string;
   descripcionA: string;
   tituloA: string;
+  fotoA: string;
   
   
 
@@ -21,7 +22,7 @@ export class NewacercadeComponent implements OnInit {
   }
 
   onCreate(): void{
-    const acercade = new Acercade(this.nombreA, this.descripcionA, this.tituloA);
+    const acercade = new Acercade(this.nombreA, this.descripcionA, this.tituloA, this.fotoA);
     this.acercadeS.save(acercade).subscribe(
       data =>{
         alert("Información añadida correctamente");

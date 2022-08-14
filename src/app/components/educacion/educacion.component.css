@@ -2,8 +2,11 @@
     padding: 20px;
     }
     div{
-        background: rgb(215, 182, 241);
+        background: white;
     }
     h1, h3{
         display: inline;
+    }
+    h2{
+        text-decoration: underline;
     }

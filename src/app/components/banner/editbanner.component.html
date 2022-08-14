@@ -1,0 +1,19 @@
+<section class="vh-100" style="background-color: rgb(215, 182, 241)">
+    <div class="container" *ngIf="banner">
+        <div class="row">
+            <div>
+                <form (ngSubmit)="onUpdate()" novalidate #f="ngForm">
+                   
+                    <div class="form-group">
+                        <label for="fotoB">Mi banner:</label>
+                        <input type="text" class="form-control" id="fotoB" name="fotoB" [(ngModel)]="banner.fotoB" required>
+                    </div>
+                    <button class="btn btn-secondary">
+                       Actualizar
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>
+    

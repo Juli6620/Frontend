@@ -1,10 +1,10 @@
 <div class="row">
-  <h1>Hard & Soft Skills:</h1>
-  <div class="col-lg-2">
+  <h2>Hard & Soft Skills:</h2>
+  <td>
     <button type="button" class="btn btn-secondary" routerLink="/nuevaskill" *ngIf="isLogged">
-      Agregar hard & soft skills
+        <i class="bi bi-plus-square"></i>
     </button>
-  </div>
+</td>
 <h1></h1>
   <div *ngFor= "let skill of skill" class="text-center col-sm-4 col-md-4 col-lg-4">
   
@@ -24,7 +24,7 @@
     [animation]="true"
     [animationDuration]="500"
   ></circle-progress>
-
+ 
   <div *ngIf="isLogged">
     <button class="btn btn-secondary" routerLink="/editskills/{{skill.id}}">
     <i class="bi bi-pencil-fill"></i></button>

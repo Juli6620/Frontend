@@ -1,0 +1,20 @@
+<section class="vh-100" style="background-color: rgb(215, 182, 241)">
+
+    <div class="container">
+        <div class="row">
+            <div>
+                <form (ngSubmit)="onCreate()" novalidate #f="ngForm">
+                   
+             
+                    <div class="form-group">
+                        <label for="fotoB">Mi banner:</label>
+                        <input type="text" class="form-control" id="fotoB" name="fotoB" [(ngModel)]="fotoB" required>
+                    </div>
+                    <button class="btn btn-secondary">
+                        Agregar banner
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    </section>

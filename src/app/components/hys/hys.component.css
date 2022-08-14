@@ -1,4 +1,7 @@
 .row{
-    background-color:rgb(215,182,241);
+    background-color: white;
     padding: 20px;
+}
+h2{
+    text-decoration: underline;
 }

@@ -1,33 +1,67 @@
-.row{
-    padding: 20px;
-}
-div{
-    background-color: rgb(215, 182, 241);
-    text-align: center;
-    
-}
-/*estilo de la foto de perfil*/
-@media (min-width:576px){
-    #fotodeperfil{
-        position:absolute;
-        width: 14%;
-        border-radius: 100%;
-        box-shadow:3px 3px 3px rgb(57, 3, 94);
-        left: 4%;
-        top: 450px;
-            }
-}
-@media (max-width: 575px){
-    #fotodeperfil{
-         position: absolute;
-         width: 20%;
-         border-radius: 100%;
-         box-shadow:3px 3px 3px rgb(57, 3, 94);
-         left: 5%;
-         top: 630px;
-        }
+.container-fluid {
+    background-color: rgb(168, 127, 159);
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+       
 }
 
-    #titulo{
-        font-size: small;
+.row {
+    padding: 20px;
+    
+}
+
+div {
+    background-color: white;
+    font-size: 105%;
+    font-style: italic;
+ }
+
+    
+
+/**Estilo de la foto de perfil**/
+.add-perfil{
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    box-shadow: 5px 5px 55px rgb(168, 127, 159);
+    position: initial;
+    top: 2rem;
+    right: 3rem;
+    padding: 5px;
+    align-items: center;
+}
+
+h1 {
+    color:black;
+    font-style: italic;
+    font-size: 180%;
+   
+    
+   
+}
+
+@media(max-width: 768px) {
+    .img-perfil {
+        margin-top: -20%;
     }
+}
+@media(max-width: 576px) {
+    .edit-persona-btn, .delete-persona-btn {
+        top: 48.5rem;
+        right: 2rem;
+    }
+}
+
+
+.img-perfil{
+    border-radius: 100%;
+    box-shadow: 3px 3px 50px rgb(168, 127, 159);
+    margin-top: -70%;
+    width: 80%;
+    max-width: 200px;
+}
