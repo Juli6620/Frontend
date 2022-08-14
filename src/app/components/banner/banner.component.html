@@ -1,27 +1,30 @@
+
 <div class="row">
+  
+
     <td>
-        
-        <button type="button" class="btn btn-secondary" routerLink="/nuevobanner" *ngIf="isLogged">
+    <button type="button" class="btn btn-secondary" routerLink="/nuevobanner" *ngIf="isLogged">
             <i class="bi bi-plus-square"></i>
         </button>
-    </td>
 
+    </td>
 </div>
 
 <div class="container-fluid" *ngFor="let Banner of banner">
     <div class="row">
-        <div class="col-lg-12"> </div>
-    </div>
-    <div class="row">
-        <div class="col-md-4 px-5 py-4 text-center">
-            <img src={{Banner.fotoB}}  id="fotodebanner">
-             </div>
-        
-            <td *ngIf="isLogged">
+
+        <td>
+            <div class="col-lg-12">
+                <img src={{Banner.fotoB}} id="fotodebanner" >
+            </div>
+        </td>
+
+        <td *ngIf="isLogged">
+       
             <button class="btn btn-secondary" routerLink="/editbanner/{{Banner.id}}">
                 <i class="bi bi-pencil-fill"></i></button>
             <button class="btn btn-danger" (click)="delete(Banner.id)">
                 <i class="bi bi-trash-fill"></i></button>
-        </td>
+            </td>
     </div>
 </div>
