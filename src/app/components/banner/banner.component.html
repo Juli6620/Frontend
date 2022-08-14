@@ -1,9 +1,11 @@
 <div class="row">
     <td>
+        
         <button type="button" class="btn btn-secondary" routerLink="/nuevobanner" *ngIf="isLogged">
             <i class="bi bi-plus-square"></i>
         </button>
     </td>
+
 </div>
 
 <div class="container-fluid" *ngFor="let Banner of banner">
